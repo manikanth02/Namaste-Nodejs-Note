@@ -2,7 +2,7 @@
 
 ## 🎨 Contents:
 
-This repository contains a `Collection of Assignments & Class Notes`, which help you understand the concepts of React.js.
+This repository contains a `Collection of Assignments & Class Notes`, which help you understand the concepts of Node.js.
 
 ## 📚 [_Chapter 01 - Introduction to NodeJs_](https://github.com/akshadjaiswal/Namaste-Nodejs)
 
