@@ -4,10 +4,15 @@
 
 This repository contains a `Collection of Assignments & Class Notes`, which help you understand the concepts of Node.js.
 
-## 📚 [_Chapter 01 - Introduction to NodeJs_](https://github.com/akshadjaiswal/Namaste-Nodejs)
+## 📚 [_Chapter 01 - Introduction to NodeJs_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2001-%20Introduction%20to%20NodeJs)
+
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%2001-%20Introduction%20to%20NodeJs/README.md)
+
+
+## 📚 [_Chapter 02 - JS on the Server_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2001-%20Introduction%20to%20NodeJs)
 
 <!-- - 💻 [_Coding_]() -->
-- 📖 [_Theory_]()
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%2002%20JS%20on%20the%20Server/README.md)
 <!-- - 📖 [_Assignment_]() -->
 
 ## 🤝 Contribution Guidelines
