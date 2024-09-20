@@ -9,11 +9,16 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%2001-%20Introduction%20to%20NodeJs/README.md)
 
 
-## 📚 [_Chapter 02 - JS on the Server_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2001-%20Introduction%20to%20NodeJs)
+## 📚 [_Chapter 02 - JS on the Server_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2002%20JS%20on%20the%20Server)
 
 <!-- - 💻 [_Coding_]() -->
-- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%2002%20JS%20on%20the%20Server/README.md)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2002%20JS%20on%20the%20Server#namaste-nodejs---episode-2-summary)
 <!-- - 📖 [_Assignment_]() -->
+
+## 📚 [_Chapter 03 - Let's Write the code_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2003%20-%20Let's%20Write%20the%20code)
+
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2003%20-%20Let's%20Write%20the%20code/Code)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2003%20-%20Let's%20Write%20the%20code#namaste-nodejs---episode-3-summary)
 
 ## 🤝 Contribution Guidelines
 
