@@ -20,6 +20,11 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2003%20-%20Let's%20Write%20the%20code/Code)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2003%20-%20Let's%20Write%20the%20code#namaste-nodejs---episode-3-summary)
 
+## 📚 [_Chapter 04 - module.export & require_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/)
+
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/)
+
 ## 🤝 Contribution Guidelines
 
 - Please create an issue with your suggestion.
