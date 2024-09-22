@@ -106,3 +106,4 @@ console.log(greet('World')); // Output: Hello, World!
 - `module.exports` is used to export functions, objects, or variables from a module.
 - `require` imports these exports into another module.
 - `.cjs` modules use CommonJS syntax (`require` and `module.exports`), while `.mjs` modules use ES Module syntax (`import` and `export`).
+- These kind of pattern used for import export in Nodejs
