@@ -20,10 +20,20 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2003%20-%20Let's%20Write%20the%20code/Code)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2003%20-%20Let's%20Write%20the%20code#namaste-nodejs---episode-3-summary)
 
-## 📚 [_Chapter 04 - module.export & require_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/)
+## 📚 [_Chapter 04 - module.export & require_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/hapter%2004%20-%20module.export%20%26%20require)
 
-- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/)
-- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/)
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2004%20-%20module.export%20%26%20require/Code)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2004%20-%20module.export%20%26%20require#namaste-nodejs---episode-4-summary)
+
+## 📚 [_Chapter 05 - Diving into NodeJs Repo_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2005%20-%20Diving%20in%20to%20NodeJS%20github%20repo)
+
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2005%20-%20Diving%20in%20to%20NodeJS%20github%20repo/Code)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/mainChapter%2005%20-%20Diving%20in%20to%20NodeJS%20github%20repo#episode-05--diving-into-the-nodejs-github-repo)
+
+## 📚 [_Chapter 06 - libuv & async IO_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2006%20-%20libuv%20%26%20async%20IO)
+
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2006%20-%20libuv%20%26%20async%20IO/Code)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2006%20-%20libuv%20%26%20async%20IO#episode-06-libuv-and-async-io)
 
 ## 🤝 Contribution Guidelines
 
