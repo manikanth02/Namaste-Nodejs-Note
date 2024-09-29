@@ -35,6 +35,11 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2006%20-%20libuv%20%26%20async%20IO/Code)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2006%20-%20libuv%20%26%20async%20IO#episode-06-libuv-and-async-io)
 
+## 📚 [_Chapter 06 - sync, async, setTimeout Zero-Code_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2007%20-%20sync%20async%2C%20setTimeout%20Zero%20-%20Code)
+
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2007%20-%20sync%20async%2C%20setTimeout%20Zero%20-%20Code/Code)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2007%20-%20sync%20async%2C%20setTimeout%20Zero%20-%20Code#understanding-nodejs-v8-libuv-and-file-operations)
+
 ## 🤝 Contribution Guidelines
 
 - Please create an issue with your suggestion.
