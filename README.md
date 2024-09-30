@@ -40,6 +40,10 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2007%20-%20sync%20async%2C%20setTimeout%20Zero%20-%20Code/Code)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2007%20-%20sync%20async%2C%20setTimeout%20Zero%20-%20Code#understanding-nodejs-v8-libuv-and-file-operations)
 
+## 📚 [_Chapter 08 -  Deep dive into v8 JS Engine_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2008%20-%20%20Deep%20dive%20into%20v8%20JS%20Engine)
+
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2008%20-%20%20Deep%20dive%20into%20v8%20JS%20Engine#v8-javascript-engine-code-execution-phases)
+
 ## 🤝 Contribution Guidelines
 
 - Please create an issue with your suggestion.
