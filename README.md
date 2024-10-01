@@ -1,8 +1,11 @@
 # Namaste Nodejs
 <br>
+
 ## 🎨 Contents:
 
 This repository contains a `Collection of Assignments & Class Notes`, which help you understand the concepts of Node.js.
+
+## Season 01: 
 
 ## 📚 [_Chapter 01 - Introduction to NodeJs_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2001-%20Introduction%20to%20NodeJs)
 
@@ -43,6 +46,11 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 ## 📚 [_Chapter 08 -  Deep dive into v8 JS Engine_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2008%20-%20%20Deep%20dive%20into%20v8%20JS%20Engine)
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2008%20-%20%20Deep%20dive%20into%20v8%20JS%20Engine#v8-javascript-engine-code-execution-phases)
+
+## 📚 [_Chapter 09 - libuv and event loop_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2009%20-%20libuv%20%26%20event%20loop)
+
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2009%20-%20libuv%20%26%20event%20loop/Code)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2009%20-%20libuv%20%26%20event%20loop#understanding-libuv-and-event-loop)
 
 ## 🤝 Contribution Guidelines
 
