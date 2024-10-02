@@ -11,8 +11,8 @@
 
 4  **Close Callbacks Phase:** Finally, in the Close Callbacks phase, any callbacks associated with closing operations, such as socket closures, are handled. This phase is typically used for cleanup tasks, ensuring that resources are properly released.
 
-Event Loop Cycle with `process.nextTick()` and `Promises`
 
 - *Event Loop Cycle with `process.nextTick()` and `Promises`*
+
 ### One More Important Note
 *When the event loop is empty and there are no more tasks to execute, it enters the `poll phase` and essentially waits for incoming events*
