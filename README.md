@@ -52,6 +52,11 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2009%20-%20libuv%20%26%20event%20loop/Code)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2009%20-%20libuv%20%26%20event%20loop#understanding-libuv-and-event-loop)
 
+## 📚 [_Chapter 10 - Thread pool in libuv_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2009%20-%20libuv%20%26%20event%20loop)
+
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2010%20-%20Thread%20Pool%20in%20libuv/Code)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2010%20-%20Thread%20Pool%20in%20libuv)
+
 ## 🤝 Contribution Guidelines
 
 - Please create an issue with your suggestion.
