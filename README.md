@@ -1,6 +1,5 @@
 # Namaste Nodejs
 <br>
-
 ## 🎨 Contents:
 
 This repository contains a `Collection of Assignments & Class Notes`, which help you understand the concepts of Node.js.
@@ -56,6 +55,11 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2010%20-%20Thread%20Pool%20in%20libuv/Code)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2010%20-%20Thread%20Pool%20in%20libuv)
+
+## 📚 [_Chapter 11 - Creating the Server_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2011%20-%20Creating%20the%20Server)
+
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2011%20-%20Creating%20the%20Server/Code)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2011%20-%20Creating%20the%20Server#creating-a-server)
 
 ## 🤝 Contribution Guidelines
 
