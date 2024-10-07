@@ -65,6 +65,11 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2012%20-%20Databases%20%20SQL%20and%20NoSQL#creating-a-server-databases---sql--nosql)
 
+## 📚 [_Chapter 13 - Creating a database & mongodb_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/)
+
+- 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/)
+
 ##  Season 2:
 
 ## 🤝 Contribution Guidelines
