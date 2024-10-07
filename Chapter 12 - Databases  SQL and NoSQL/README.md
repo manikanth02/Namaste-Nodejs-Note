@@ -47,5 +47,20 @@ IDMS (Integrated Database Management System) is a network database that represen
 
 Amazon RDS (Relational Database Service) is a managed cloud database service that supports multiple relational database engines, including MySQL, PostgreSQL, and Oracle. It automates tasks like backups, patching, and scaling, making it easy to deploy and manage databases in the cloud
 
-## SQL vs NoSQL
-###
+Most commonly used databases are: 
+1 **Relational DB** 
+2 **NoSQL DB**
+
+## RDBMS (MySQL, PostgreSQL)
+
+Relational Database Management Systems (RDBMS) like MySQL and PostgreSQL are popular choices for managing structured data. 
+
+## NoSQL and MongoDB
+
+NoSQL databases can be classified into four main types: 
+1 *Document Databases* 
+2 *Key-Value Databases* 
+3 *Graph Databases* 
+4 *Wide-Column Databases* 
+5 *Multi-Model Databases*
+
