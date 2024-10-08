@@ -64,3 +64,6 @@ NoSQL databases can be classified into four main types:
 4 *Wide-Column Databases* 
 5 *Multi-Model Databases*
 
+## SQL vs NoSQL
+![Difference between SQL and NoSQL](SQL%20vs%20NoSQL.jpeg)
+
