@@ -20,7 +20,7 @@ async function main() {
         phoneNumber: "88526587",
     }
 
-    
+
     // Create
     // const insertData = await collection.insertMany([data])
     // console.log("data inserted = ", insertData)
@@ -30,7 +30,7 @@ async function main() {
     // const updateData = await collection.updateOne({ _id: new ObjectId('67066d6a3be8f41630d5dae4') }, { $set: { firstname: "Mint" } })
     // console.log("Updated document ", updateData)
 
-
+    
     //Read 
     const findData = await collection.find({}).toArray();
     console.log("All data :", findData)
@@ -38,6 +38,11 @@ async function main() {
     //delete
     // const deletedata = await collection.deleteOne({ _id: new ObjectId('670668562c6bd11e25050c13') })
     // console.log("deleted data=>", deletedata)
+
+    //Count documents
+    const countData = await collection.countDocuments({})
+    console.log("Number of documents in db are :", countData)
+
 
 
     return 'done'
