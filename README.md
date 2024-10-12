@@ -13,9 +13,7 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 
 ## 📚 [_Chapter 02 - JS on the Server_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2002%20JS%20on%20the%20Server)
 
-<!-- - 💻 [_Coding_]() -->
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2002%20JS%20on%20the%20Server#namaste-nodejs---episode-2-summary)
-<!-- - 📖 [_Assignment_]() -->
 
 ## 📚 [_Chapter 03 - Let's Write the code_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2003%20-%20Let's%20Write%20the%20code)
 
@@ -74,7 +72,6 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 
 ## 📚 [_Chapter 01 - Microservices vs Monolith - How to build a Project_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2001%20Microservices%20vs%20Monolith%20-%20How%20to%20build%20a%20project)
 
-<!-- - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2013%20-%20Creating%20a%20database%20%26%20mongodb/Code) -->
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%20S2%2001%20Microservices%20vs%20Monolith%20-%20How%20to%20build%20a%20project/README.md)
 
 ## 🤝 Contribution Guidelines
