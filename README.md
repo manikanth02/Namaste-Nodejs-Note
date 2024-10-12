@@ -72,6 +72,11 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 
 ##  Season 2:
 
+## 📚 [_Chapter 01 - Microservices vs Monolith - How to build a Project_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2001%20Microservices%20vs%20Monolith%20-%20How%20to%20build%20a%20project)
+
+<!-- - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2013%20-%20Creating%20a%20database%20%26%20mongodb/Code) -->
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%20S2%2001%20Microservices%20vs%20Monolith%20-%20How%20to%20build%20a%20project/README.md)
+
 ## 🤝 Contribution Guidelines
 
 - Please create an issue with your suggestion.
