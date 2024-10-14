@@ -91,3 +91,27 @@ app.listen(port, () => {
 
 ```
 
+## Understanding the `-g` Flag in `npm install`
+
+## What is `-g` in `npm install`?
+The `-g` flag stands for "global" and is used with the `npm install` command to install packages globally on your system, rather than locally within a specific project.
+
+## Local vs. Global Installation
+
+### Local Installation (Default)
+- When you run `npm install <package>`, the package is installed locally in the `node_modules` directory of the current project.
+- The package is only accessible within that project and is added to the project's `package.json` dependencies.
+
+### Global Installation (`-g` Flag)
+- When you run `npm install -g <package>`, the package is installed globally on your system.
+- This makes the package accessible from the command line in any directory.
+- Global installation is typically used for packages that provide command-line tools (e.g., `npm`, `nodemon`, `eslint`).
+
+## Example Usage
+To install a package globally:
+```bash
+npm install -g <package>
+npm install -g nodemon
+```
+
+
