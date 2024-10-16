@@ -70,9 +70,26 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 
 ##  Season 2:
 
+## Working on `*devTinder*` app
+
+DevTinder is a MERN (MongoDB, Express, React, Node.js) application designed to help developers connect and collaborate. The project uses a microservices architecture, which divides the application into two main services:
+
+**[Repository - Backend]**(https://github.com/akshadjaiswal/devTinder-backend) 
+
+1. **Frontend**: Handles the user interface and client-side logic.
+2. **Backend**: Manages server-side logic, APIs, and interactions with the database.
+
 ## 📚 [_Chapter 01 - Microservices vs Monolith - How to build a Project_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2001%20Microservices%20vs%20Monolith%20-%20How%20to%20build%20a%20project)
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%20S2%2001%20Microservices%20vs%20Monolith%20-%20How%20to%20build%20a%20project/README.md)
+
+## 📚 [_Chapter 02 - Creating Our Express Server_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2002%20Creating%20our%20Express%20server)
+
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%20S2%2002%20Creating%20our%20Express%20server/README.md)
+
+## 📚 [_Chapter 03 - Routing and Request Handlers_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2003%20Routing%20and%20Request%20handlers)
+
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2003%20Routing%20and%20Request%20handlers/README.md)
 
 ## 🤝 Contribution Guidelines
 
