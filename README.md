@@ -74,7 +74,7 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 
 DevTinder is a MERN (MongoDB, Express, React, Node.js) application designed to help developers connect and collaborate. The project uses a microservices architecture, which divides the application into two main services:
 
-**[Repository - Backend]**(https://github.com/akshadjaiswal/devTinder-backend) 
+**[Repository - Backend](https://github.com/akshadjaiswal/devTinder-backend)** 
 
 1. **Frontend**: Handles the user interface and client-side logic.
 2. **Backend**: Manages server-side logic, APIs, and interactions with the database.
