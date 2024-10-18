@@ -83,6 +83,10 @@ DevTinder is a MERN (MongoDB, Express, React, Node.js) application designed to h
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%20S2%2001%20Microservices%20vs%20Monolith%20-%20How%20to%20build%20a%20project/README.md)
 
+## 📚 [_Chapter 02 - Features HLD LLD and Planning_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2002%20Features%2C%20HLD%20%20LLD%20and%20Planning)
+
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2002%20Features%2C%20HLD%20%20LLD%20and%20Planning/README.md)
+
 ## 📚 [_Chapter 03 - Creating Our Express Server_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2003%20Creating%20our%20Express%20server)
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%20S2%2003%20Creating%20our%20Express%20server/README.md)
