@@ -43,8 +43,9 @@ The DevTinder app is being built by following a structured development cycle sim
   - **Collections**:
     1. **User**:
        - Fields: `firstname`, `lastname`, `email`, `password`, `age`, `gender`, etc.
-    2. Profile 
-  - Additional collections and relationships will be designed as needed.
+   2. **ConnectionRequest Collection**:
+       - Fields: `fromUserId` (sender's user ID), `toUserId` (receiver's user ID), `status` (e.g., pending, accepted, rejected, ignored).
+
 
 ## Next Steps
 - Finalize the LLD and start implementing the database schema.
