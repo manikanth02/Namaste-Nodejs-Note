@@ -1,6 +1,5 @@
 # DevTinder Project Development (LLD HLD)
 
-
 ## Development Approach
 The DevTinder app is being built by following a structured development cycle similar to how projects are managed in a company. The process includes gathering requirements, high-level design (HLD), and low-level design (LLD).
 
@@ -43,11 +42,54 @@ The DevTinder app is being built by following a structured development cycle sim
   - **Collections**:
     1. **User**:
        - Fields: `firstname`, `lastname`, `email`, `password`, `age`, `gender`, etc.
-   2. **ConnectionRequest Collection**:
+    2. **ConnectionRequest Collection**:
        - Fields: `fromUserId` (sender's user ID), `toUserId` (receiver's user ID), `status` (e.g., pending, accepted, rejected, ignored).
 
 
+### API Design
+#### What are REST APIs?
+- **REST (Representational State Transfer)** is an architectural style for designing networked applications. It relies on a stateless, client-server communication protocol, most commonly HTTP.
+- **REST APIs** are web services that allow for interaction between a client and a server using standard HTTP methods. They enable the creation, retrieval, updating, and deletion of resources through well-defined endpoints.
+
+#### How REST APIs Work
+1. **Client Request**:
+   - The client sends a request to the server via HTTP methods such as GET, POST, PUT, PATCH, or DELETE.
+   - Each HTTP method corresponds to a specific operation:
+     - **GET**: Retrieve data from the server.
+     - **POST**: Create new data on the server.
+     - **PUT**: Update existing data (entirely replace the resource).
+     - **PATCH**: Partially update existing data.
+     - **DELETE**: Remove data from the server.
+
+2. **Server Response**:
+   - The server processes the request and returns a response.
+   - The response usually includes a status code (e.g., 200 for success, 404 for not found) and, if applicable, data in JSON or XML format.
+
+3. **Stateless Communication**:
+   - Each request from the client to the server must contain all the information needed to understand and process the request.
+   - The server does not store any state about the client session between requests.
+
+#### Difference Between PUT and PATCH
+- **PUT**: Updates the entire resource with new data. If any fields are missing, they may be reset or removed.
+- **PATCH**: Only updates specific fields of the resource, leaving the other fields unchanged.
+
+### REST APIs Needed
+1. **User Management APIs**:
+   - `POST /signup`: Register a new user
+   - `POST /login`: Authenticate and login the user
+   - `POST /profile`: Create a user profile
+   - `GET /profile`: Retrieve user profile details
+   - `PATCH /profile`: Update user profile
+   - `DELETE /profile`: Delete user profile
+
+2. **Connection Management APIs**:
+   - `POST /sendRequest`: Send a connection request (ignore/interested)
+   - `POST /reviewRequest`: Accept or reject a connection request
+   - `GET /request`: Retrieve the list of requests (sent and received)
+   - `GET /connections`: Get a list of established connections
+
 ## Next Steps
-- Finalize the LLD and start implementing the database schema.
-- Begin development of backend services, followed by the frontend.
-- Iteratively add more features and enhance the design based on feedback.
+1. Finalize the database schema and API design.
+2. Implement the backend services for the listed APIs.
+3. Develop the frontend to interact with these backend services.
+4. Test the application for feature completion and bug fixes.
