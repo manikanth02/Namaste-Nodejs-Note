@@ -4,7 +4,7 @@
 
 This repository contains a `Collection of Assignments & Class Notes`, which help you understand the concepts of Node.js.
 
-## Season 01: 
+## **Season 01:** 
 
 ## 📚 [_Chapter 01 - Introduction to NodeJs_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2001-%20Introduction%20to%20NodeJs)
 
@@ -68,7 +68,7 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 - 💻 [_Coding_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2013%20-%20Creating%20a%20database%20%26%20mongodb/Code)
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%2013%20-%20Creating%20a%20database%20%26%20mongodb#creating-a-database--mongodb)
 
-##  Season 2:
+##  **Season 2:**
 
 ## Working on `*devTinder*` app
 
@@ -81,7 +81,7 @@ DevTinder is a MERN (MongoDB, Express, React, Node.js) application designed to h
 
 ## 📚 [_Chapter 01 - Microservices vs Monolith - How to build a Project_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2001%20Microservices%20vs%20Monolith%20-%20How%20to%20build%20a%20project)
 
-- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%20S2%2001%20Microservices%20vs%20Monolith%20-%20How%20to%20build%20a%20project/README.md)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2001%20Microservices%20vs%20Monolith%20-%20How%20to%20build%20a%20project/README.md)
 
 ## 📚 [_Chapter 02 - Features HLD LLD and Planning_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2002%20Features%2C%20HLD%20%20LLD%20and%20Planning)
 
@@ -89,11 +89,15 @@ DevTinder is a MERN (MongoDB, Express, React, Node.js) application designed to h
 
 ## 📚 [_Chapter 03 - Creating Our Express Server_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2003%20Creating%20our%20Express%20server)
 
-- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%20S2%2003%20Creating%20our%20Express%20server/README.md)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2003%20Creating%20our%20Express%20server/README.md)
 
 ## 📚 [_Chapter 04 - Routing and Request Handlers_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2004%20Routing%20and%20Request%20handlers)
 
-- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2004%20Routing%20and%20Request%20handlers/README.md)
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main//Chapter%20S2%2004%20Routing%20and%20Request%20handlers/README.md)
+
+## 📚 [_Chapter 05 - Middlewares and Error Handlers_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2005%20Middlewares%20and%20Error%20Handlers)
+
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2005%20Middlewares%20and%20Error%20Handlers/README.md)
 
 ## 🤝 Contribution Guidelines
 
@@ -108,6 +112,4 @@ Give a ⭐️ if this project helped you and try to contribute and share with yo
 
 ## 🔗 Let's Connect:-
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akshadsantoshjaiswal)
-
-[![twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/akshad_999)
+[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akshadsantoshjaiswal) [![twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/akshad_999)

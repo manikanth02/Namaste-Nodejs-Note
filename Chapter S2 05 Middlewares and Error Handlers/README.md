@@ -1,8 +1,13 @@
 # DevTinder Project - Learning Notes
 
+## Code Demonstration Link
+
+* [DevTinder Backend Repository](https://github.com/akshadjaiswal/devTinder-backend)
+
 ## Middlewares and Error Handlers in Express
 
 ## Route Handlers in Express
+
 
 ### Overview
 In Express, route handlers are functions that handle requests to a specific endpoint. You can use multiple route handlers for a single route, control the flow with `next`, and even wrap handlers into arrays for better modularity.
@@ -179,4 +184,62 @@ app.get('/error', (req, res) => {
   res.status(404).send('Not Found');
 });
 ```
+
+## Difference Between `app.use()` and `app.all()` in Express.js
+
+
+
+| Feature             | `app.use()`                                | `app.all()`                                  |
+|---------------------|--------------------------------------------|----------------------------------------------|
+| **Purpose**          | Mounts middleware functions or sub-routers to all or specific routes | Matches all HTTP methods (GET, POST, PUT, DELETE, etc.) on a specific route |
+| **Path Requirement** | Can be used with or without a path         | Requires a specific path                     |
+| **Applies to**       | All HTTP methods by default                | All HTTP methods but only for the defined path |
+| **Common Use Case**  | Applying middleware logic across multiple routes or specific paths | Handling all HTTP methods (GET, POST, etc.) on one route |
+| **Functionality**    | Middleware is invoked sequentially until the next middleware or route handler is reached | Executes for any HTTP method (GET, POST, PUT, etc.) on the specified path |
+
+---
+
+## Examples
+
+### 1. `app.use()` Example
+```javascript
+// Middleware applied to all routes
+app.use((req, res, next) => {
+  console.log('Request received');
+  next();
+});
+
+// Middleware applied to a specific path
+app.use('/user', (req, res, next) => {
+  console.log('User path accessed');
+  next();
+});
+```
+### 2. `app.all()` Example
+```javascript
+// Match all HTTP methods on '/about' route
+app.all('/about', (req, res) => {
+  res.send('This route handles all HTTP methods');
+});
+```
+
+## Error-Handling Middleware in Express.js
+
+Error-handling middleware in Express is used to catch and manage errors that occur during the processing of requests. It allows the application to respond with appropriate error messages and status codes.
+
+### Defining Error-Handling Middleware
+- Error-handling middleware is defined with **four** parameters: `(err, req, res, next)`.
+- Express identifies it as an error handler because it includes the `err` parameter as the first argument.
+
+### Example of Error-Handling Middleware
+```javascript
+// Define error-handling middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack); // Log the error details
+  res.status(500).send('Something went wrong!'); // Send a 500 Internal Server Error response
+});
+```
+
+
+
 
