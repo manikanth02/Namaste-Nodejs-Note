@@ -70,3 +70,60 @@ app.get('/skip', (req, res) => {
 });
 ```
 - Here, the second handler will be skipped, and the request will be passed directly to the third handler.
+
+## Middlewares in Express.js
+
+### 1. What is Middleware?
+- **Middleware** is a function that has access to the request (`req`), response (`res`), and the next middleware function in the request-response cycle.
+- Middleware functions can:
+  - Execute any code.
+  - Modify the request and response objects.
+  - End the request-response cycle by sending a response.
+  - Call the next middleware function in the stack using `next()`.
+
+### 2. Why Do We Need Middleware?
+- **Modularity**: Middleware helps in separating concerns like authentication, logging, validation, etc., into reusable functions.
+- **Pre-processing**: Middleware can be used to modify or check the request before it reaches the route handler.
+- **Error Handling**: Middleware is essential for catching errors and handling them gracefully without stopping the application.
+- **Authorization/Authentication**: Middleware ensures that only authorized users can access certain routes.
+- **Request Logging**: Middleware can log request details for monitoring or debugging.
+
+### 3. How Express.js Handles Middlewares Behind the Scenes
+- When an HTTP request is received, Express executes all middleware functions in the order they are defined.
+- Each middleware function can:
+  - **Pass control** to the next middleware by calling `next()`.
+  - **End the request-response cycle** by sending a response.
+- Middleware functions are executed sequentially unless `next()` is invoked, which passes control to the next middleware or route handler.
+- Behind the scenes, Express creates a **middleware stack** and processes it in order. If `next()` is not called, the request gets stuck and no further processing occurs.
+
+### Example of Middleware Flow
+```javascript
+const express = require('express');
+const app = express();
+
+// Middleware 1: Request Logger
+app.use((req, res, next) => {
+  console.log(`${req.method} ${req.url}`);
+  next(); // Pass control to the next middleware
+});
+```
+```javascript
+// Middleware 2: Authorization Check
+//Handle user authentication for all admin routes using middlewares
+app.use("/admin", (req, res, next) => {
+    const token = "999";
+    const isAuthorizedAdmin = token === "999";
+    if (!isAuthorizedAdmin) {
+        res.status(401).send("Unauthorized Admin")
+    } else {
+        next();
+    }
+})
+app.get("/admin/getAllData", (req, res) => {
+    res.send("All data Generated")
+})
+app.get("/admin/deleteData", (req, res) => {
+    res.send("Data Deleted")
+})
+app.listen(3000, () => console.log('Server is running on port 3000'));
+```
