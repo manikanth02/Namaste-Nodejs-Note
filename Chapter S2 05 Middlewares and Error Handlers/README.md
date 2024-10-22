@@ -127,3 +127,56 @@ app.get("/admin/deleteData", (req, res) => {
 })
 app.listen(3000, () => console.log('Server is running on port 3000'));
 ```
+## HTTP Status Codes
+
+HTTP status codes are standard response codes returned by web servers to indicate the result of a client's HTTP request. These codes help both the client and server understand what happened with the request and whether it was successful or encountered an error.
+
+### Categories of HTTP Status Codes:
+- **1xx Informational**: The request was received, and the process is continuing.
+- **2xx Success**: The request was successfully received, understood, and accepted.
+- **3xx Redirection**: Further action is required to complete the request.
+- **4xx Client Error**: The request contains bad syntax or cannot be fulfilled.
+- **5xx Server Error**: The server failed to fulfill a valid request.
+
+---
+
+### Common HTTP Status Codes
+
+#### **1xx Informational**
+- **100 Continue**: The server has received the request headers, and the client should proceed to send the request body.
+
+#### **2xx Success**
+- **200 OK**: The request was successful, and the server responded with the requested data.
+- **201 Created**: The request was successful, and a new resource was created.
+- **204 No Content**: The request was successful, but there is no content to send in the response.
+
+#### **3xx Redirection**
+- **301 Moved Permanently**: The resource has been permanently moved to a new URL. All future requests should use the new URL.
+- **302 Found**: The resource has been temporarily moved to a different URL, but future requests should still use the original URL.
+- **304 Not Modified**: The resource has not been modified since the last request, so the client can use the cached version.
+
+#### **4xx Client Error**
+- **400 Bad Request**: The server could not understand the request due to invalid syntax.
+- **401 Unauthorized**: The client must authenticate itself to get the requested response.
+- **403 Forbidden**: The client does not have permission to access the requested resource.
+- **404 Not Found**: The server cannot find the requested resource. This usually occurs when the URL is incorrect.
+
+#### **5xx Server Error**
+- **500 Internal Server Error**: The server encountered an unexpected condition that prevented it from fulfilling the request.
+- **502 Bad Gateway**: The server, acting as a gateway, received an invalid response from the upstream server.
+- **503 Service Unavailable**: The server is currently unavailable, usually due to being overloaded or down for maintenance.
+
+---
+
+### How to Use HTTP Status Codes in Express.js
+In Express, you can send status codes using `res.status()` followed by the appropriate code:
+```javascript
+app.get('/example', (req, res) => {
+  res.status(200).send('Success');
+});
+
+app.get('/error', (req, res) => {
+  res.status(404).send('Not Found');
+});
+```
+
