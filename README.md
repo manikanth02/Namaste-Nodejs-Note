@@ -103,6 +103,10 @@ DevTinder is a MERN (MongoDB, Express, React, Node.js) application designed to h
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2006%20Database%2C%20Schema%2C%20Models%20%26%20Mongoose/README.md)
 
+## 📚 [_Chapter 07 - Diving into APIs_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2007%20Diving%20into%20APIs)
+
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2007%20Diving%20into%20APIs/README.md)
+
 ## 🤝 Contribution Guidelines
 
 - Please create an issue with your suggestion.
