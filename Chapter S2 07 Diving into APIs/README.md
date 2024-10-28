@@ -12,6 +12,10 @@ This README serves as a reference for API concepts and operations encountered wh
 1. [JavaScript Object vs JSON Object](#javascript-object-vs-json-object)
 2. [Receiving Data Through POST API](#receiving-data-through-post-api)
 3. [Retrieving Users from the Database](#retrieving-users-from-the-database)
+4. [Handling Duplicate Documents with findOne()](#handling-duplicate-documents-with-findone)
+5. [Delete API - Removing Documents from Database](#delete-api---removing-documents-from-database)
+6. [PATCH vs PUT API](#patch-vs-put-api)
+7. [Updating Data with PATCH API](#updating-data-with-patch-api)
 
 ---
 
@@ -89,6 +93,100 @@ app.get("/feed", async (req, res) => {
         res.status(400).send("Something went wrong")
     }
 
+})
+```
+---
+
+## 4. Handling Duplicate Documents with findOne()
+
+### Overview
+When `findOne()` is used with duplicate email documents in the database, MongoDB will return the **first matching document** it finds based on the collection's internal document ordering.
+
+### Key Points
+- **Ordering**: MongoDB does not guarantee a specific order unless specified with an index. The document returned will typically be the first found, according to the insertion order.
+- **Best Practice**: To avoid duplicates, enforce uniqueness in fields like email by using unique indexes.
+```javascript
+    //user API to find the single user by by email
+    app.get("/user", async (req, res) => {
+        //getting user from body
+        const userEmail = req.body.emailId;
+        try {
+            const users = await User.findOne({ emailId: userEmail })
+            if (users.length === 0) {
+                res.status(400).send("User not found")
+            } else {
+
+                // console.log(users)
+                res.send(users)
+            }
+        }
+        catch (err) {
+            res.status(400).send("Something went wrong")
+        }
+    })
+```
+---
+
+## 5. Delete API - Removing Documents from Database
+
+### Overview
+The Delete API is used to remove specific documents from the database, allowing for efficient data management.
+
+### Key Method: `findByIdAndDelete()`
+- Accepts the document's `_id` to identify and delete the target document.
+- Returns the deleted document or `null` if no document is found.
+- **Usage**: Primarily used for deleting user profiles or unwanted data from the collection.
+```javascript
+    //delete user API - deleting a user by its id
+app.delete("/user", async (req, res) => {
+    const userId = req.body.userId;
+
+    try {
+        const users = await User.findByIdAndDelete(userId);
+        res.send("User deleted Successfully")
+
+    } catch (err) {
+        res.status(400).send("Something went wrong")
+    }
+})
+```
+---
+
+## 6. PATCH vs PUT API
+
+| Feature                         | PATCH                                                      | PUT                                                         |
+|---------------------------------|------------------------------------------------------------|-------------------------------------------------------------|
+| **Purpose**                     | To partially update a document                             | To completely replace a document                            |
+| **Required Data**               | Only the fields that need updating                         | All fields, even if only one field changes                  |
+| **Typical Use Case**            | Updating a few fields, like changing a user's email        | Replacing or re-uploading an entire document                |
+| **Database Interaction**        | Updates specific fields, leaving others unchanged          | Replaces the document with a new version                    |
+| **HTTP Response Code**          | Typically 200 (OK) or 204 (No Content)                     | Typically 200 (OK) or 204 (No Content)                      |
+
+---
+
+## 7. Updating Data with PATCH API
+
+### Overview
+The PATCH API is used to update specific fields within a document without affecting other data.
+
+### Key Method: `findByIdAndUpdate()`
+- Accepts the document's `_id` and an object with updated data.
+- Only the fields in the update object will be modified; others remain unchanged.
+- **Use Case**: Ideal for updating user information like username, bio, or profile picture without affecting other fields.
+```javascript
+// patch user API - updating the data of user
+app.patch("/user", async (req, res) => {
+    const userId = req.body.userId;
+    const data = req.body;
+
+    try {
+        const user = await User.findByIdAndUpdate({ _id: userId }, data, { returnDocument: "before" });
+        console.log(user)
+        res.send("User updated successfully")
+
+    } catch (err) {
+        res.status(400).send("Something went wrong")
+    }
 })
 ```
 ---
