@@ -107,6 +107,9 @@ DevTinder is a MERN (MongoDB, Express, React, Node.js) application designed to h
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2007%20Diving%20into%20APIs/README.md)
 
+## 📚 [_Chapter 08 - Data Sanitization and Schema Validations_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2008%20Data%20Sanitization%20%26%20Schema%20Validations)
+
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2008%20Data%20Sanitization%20%26%20Schema%20Validations/README.md)
 ## 🤝 Contribution Guidelines
 
 - Please create an issue with your suggestion.
