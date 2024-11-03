@@ -28,7 +28,7 @@ emailId: {
         type: String,
         lowercase: true,
         required: true,
-       ` unique: true,`
+       `unique: true,`
         trim: true
     }
 ```
@@ -62,9 +62,8 @@ emailId: {
         lowercase: true,
         required: true,
         unique: true,
-       ` trim: true`
-    }
-```
+       `trim: true`
+   }
 
 ### 6. `minLength` and `maxLength`
 - Ensures that the length of a string field falls within a specified range.
@@ -106,7 +105,7 @@ gender: {
 - Automatically adds `createdAt` and `updatedAt` fields to the schema, tracking when the document was created and last modified.
 ```javascript
 {
-   ` timestamps: true`
+   `timestamps: true`
 }
 ```
 
