@@ -116,7 +116,7 @@ gender: {
         type: String,
         required: true,
         trim: true,
-       ` validate(value) {
+       `validate(value) {
             if (!["male", "female", "others"].includes(value)) {
                 throw new Error("Not a valid gender (Male , Female and other)")
             }
