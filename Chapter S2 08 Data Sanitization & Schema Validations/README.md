@@ -133,6 +133,23 @@ gender: {
   - Prevents unintended updates.
   - Minimizes errors by restricting updates to specified fields.
   - Enhances data security by controlling what data is modifiable.
-  
+
+  ```javascript
+        const ALLOWED_UPDATES = [
+            "photoURL",
+            "about",
+            "gender",
+            "skills",
+            "firstName",
+            "lastName",
+            "age"
+        ];
+
+        const isUpdateAllowed = Object.keys(data).every((k) => ALLOWED_UPDATES.includes(k));
+
+        if (!isUpdateAllowed) {
+            throw new Error("Update Not Allowed")
+        }
+  ```
 ## Conclusion
 Schema validations and data sanitization in Mongoose provide powerful tools to maintain data quality and integrity. These features enable building robust applications by ensuring that only valid data is stored in the database, reducing the need for manual checks and potential data-related errors.
