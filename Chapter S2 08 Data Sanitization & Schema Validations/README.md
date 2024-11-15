@@ -129,6 +129,7 @@ gender: {
 ### PATCH API for Selected Field Updates
 - **Field-Level Validation**: API-level validation ensures that only specific fields can be updated in a PATCH request. This limits changes to approved fields and improves security.
 - **Selective Updates**: Enables users to update only allowed fields while maintaining the integrity of other data.
+
 - **Benefits**:
   - Prevents unintended updates.
   - Minimizes errors by restricting updates to specified fields.
