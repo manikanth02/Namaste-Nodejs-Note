@@ -111,6 +111,20 @@ DevTinder is a MERN (MongoDB, Express, React, Node.js) application designed to h
 ## 📚 [_Chapter 08 - Data Sanitization and Schema Validations_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2008%20Data%20Sanitization%20%26%20Schema%20Validations)
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2008%20Data%20Sanitization%20%26%20Schema%20Validations/README.md)
+
+## 📚 [_Chapter 09 - Encrypting Passwords_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2009%20-%20Encrypting%20Passwords)
+
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2009%20-%20Encrypting%20Passwords/README.md)
+
+---
+## More Learning Resources
+
+Explore my additional repositories to deepen your understanding of related topics in the JavaScript ecosystem:
+
+- [Namaste Javascript](https://github.com/akshadjaiswal/Namaste-Javascript): A repository focused on learning Javascript concepts, from basics to advanced programming.
+- [Namaste React](https://github.com/akshadjaiswal/Namaste-React): A repository dedicated to mastering React.js, covering foundational and advanced aspects of building interactive UIs.
+
+---
 ## 🤝 Contribution Guidelines
 
 - Please create an issue with your suggestion.
