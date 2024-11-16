@@ -163,11 +163,25 @@ Now focus  on learning how to use the `validator.js` library for advanced data v
 - **Method**: `isEmail`
 - Ensures that the provided email address is in a valid format.
 - Helps prevent invalid or malformed email addresses from being stored in the database.
+```javascript
+   validate(value) {
+            if (!validator.isEmail(value)) {
+                throw new Error("Invalid Email :" + value)
+            }
+        }
+```
 
 ### 2. **Validating Photo URLs**
 - **Method**: `isURL`
 - Validates whether a string is a properly formatted URL.
 - Useful for checking the validity of photo URLs uploaded by users.
+```javascript
+   validate(value) {
+            if (!validator.isURL(value)) {
+                throw new Error("Invalid URL :" + value)
+            }
+        }
+```
 
 ### 3. **Validating Password Strength**
 - **Method**: `isStrongPassword`
@@ -176,6 +190,13 @@ Now focus  on learning how to use the `validator.js` library for advanced data v
   - Inclusion of uppercase and lowercase letters.
   - Numbers and special characters.
 - Ensures that users create secure passwords to protect their accounts.
+```javascript
+   validate(value) {
+            if (!validator.isStrongPassword(value)) {
+                throw new Error("Enter a strong password :" + value)
+            }
+        }
+```
 
 ## Benefits of Using Validator.js
 - **Improved Data Integrity**: Ensures only valid data is stored in the database.
