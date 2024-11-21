@@ -137,5 +137,66 @@ module.exports = {
     userAuth
 }
 ```
+## What are `Schema.methods` in Mongoose?
+
+### Definition:
+- `Schema.methods` is an object where you can define custom instance methods for a schema.
+- These methods are available on all documents created with the schema.
+
+### Use Cases:
+1. **Password Management**:
+   - Use methods to hash passwords, compare hashed passwords during login, or perform other password-related operations.
+   
+2. **Token Generation**:
+   - Attach functions to generate JWT tokens for authentication directly to the schema.
+
+3. **Custom Business Logic**:
+   - Add reusable methods for specific operations on schema instances, such as calculating derived data or formatting outputs.
+```javascript
+// for jwt
+    userSchema.methods.getjwt = async function () {
+    const user = this;
+    const token = await jwt.sign({ _id: this._id }, "999@Akshad", { expiresIn: "1d" })
+
+    return token;
+}
+
+// for password validation
+userSchema.methods.validatePassword = async function (passwordInputByUser) {
+    const user = this;
+    const passwordHash = user.password;
+    const isValidPassword = await bcrypt.compare(passwordInputByUser, passwordHash);
+    return isValidPassword;
+
+}
+```
+
+---
+
+## Advantages of Using `Schema.methods`
+
+1. **Encapsulation**:
+   - Encapsulate document-specific logic within the schema for better modularity and readability.
+
+2. **Reusability**:
+   - Define functions once and reuse them across all instances of the schema.
+
+3. **Integration with Mongoose Models**:
+   - Work seamlessly with Mongoose's querying and data manipulation features.
+
+---
+
+## Common Use Cases in DevTinder
+
+1. **Authentication**:
+   - Attach methods to hash passwords during signup and compare passwords during login.
+
+2. **JWT Integration**:
+   - Add a method to generate JWT tokens after successful password validation.
+
+3. **Data Transformation**:
+   - Create methods to sanitize or format data before sending it to the client.
+
+---
 
 ---
