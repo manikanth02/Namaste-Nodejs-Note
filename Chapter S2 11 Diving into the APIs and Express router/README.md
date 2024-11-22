@@ -58,6 +58,21 @@ Handles operations related to connections, requests, and the user feed.
    - Leverage the `express.Router()` to define routes in a modular way.
    - Each route file exports its router, which is then mounted to a specific path in the main application file.
 
+```javascript
+    const express = require("express");
+    const profileRouter = express.Router();
+    const { userAuth } = require("../Middlewares/auth");
+
+
+    //profile API to get the profile details
+    profileRouter.get("/profile", userAuth, async (req, res) => {
+        const user = req.user;
+        res.send(user);
+    });
+
+    module.exports = profileRouter;
+```
+
 ### Benefits of Using Express Router:
 - **Modularity**: Separate files for each router improve code organization and readability.
 - **Scalability**: Easier to maintain and expand as the application grows.
