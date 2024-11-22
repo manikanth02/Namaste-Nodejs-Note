@@ -4,8 +4,6 @@
 
 * [DevTinder Backend Repository](https://github.com/akshadjaiswal/devTinder-backend)
 
-ookies
-
 ## Overview
 This document details the authentication process in the DevTinder app, focusing on JSON Web Tokens (JWT), cookie management, and security best practices. Understanding these concepts ensures secure user authentication and efficient session management.
 
