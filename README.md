@@ -1,5 +1,4 @@
 # Namaste Nodejs
-<br>
 
 ##  🎨 Contents:
 
@@ -71,7 +70,7 @@ This repository contains a `Collection of Assignments & Class Notes`, which help
 
 ##  **Season 2:**
 
-## Working on `*devTinder*` app
+## Working on **`devTinder`** app
 
 DevTinder is a MERN (MongoDB, Express, React, Node.js) application designed to help developers connect and collaborate. The project uses a microservices architecture, which divides the application into two main services:
 
