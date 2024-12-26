@@ -47,6 +47,7 @@ This document details the authentication process in the DevTinder app, focusing 
      - **Header**: Information about the token type and signing algorithm.
      - **Payload**: Contains user-specific data (e.g., user ID).
      - **Signature**: Ensures the token’s integrity.
+
 ```javascript
  //create a jwt token
     const token = await jwt.sign({ _id: user._id }, "999@Akshad", { expiresIn: "1d" })
