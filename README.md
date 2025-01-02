@@ -124,7 +124,7 @@ View [`commits`](https://github.com/akshadjaiswal/devTinder-backend/commits/main
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2011%20Diving%20into%20the%20APIs%20and%20Express%20router/README.md)
 
-## 📚 [_Chapter 11 - Logical DB Query and Compound Indexes_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2012%20Logical%20DB%20Query%20and%20Compound%20Indexes)
+## 📚 [_Chapter 12 - Logical DB Query and Compound Indexes_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2012%20Logical%20DB%20Query%20and%20Compound%20Indexes)
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2012%20Logical%20DB%20Query%20and%20Compound%20Indexes/README.md)
 
