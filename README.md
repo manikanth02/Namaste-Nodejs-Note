@@ -128,6 +128,10 @@ View [`commits`](https://github.com/akshadjaiswal/devTinder-backend/commits/main
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2012%20Logical%20DB%20Query%20and%20Compound%20Indexes/README.md)
 
+## 📚 [_Chapter 13 - ref, Populate and Thought Process of Writing API's_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2013%20ref%2C%20Populate%20and%20Thought%20Process%20of%20writing%20API's)
+
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2013%20ref%2C%20Populate%20and%20Thought%20Process%20of%20writing%20API's/README.md)
+
 ---
 ## More Learning Resources
 
