@@ -86,5 +86,78 @@ Today's focus is on using `ref`, `populate`, and implementing a structured thoug
     }
     );
 ```
+## Key Concepts
+
+### 1. `ref` and `populate` in Mongoose
+- **`ref`**:
+  - Defines relationships between collections in MongoDB.
+  - Used to reference documents from other collections (e.g., linking `toUserId` and `fromUserId` to the User collection).
+
+- **`populate`**:
+  - Populates referenced fields with actual document data instead of just IDs.
+  - Simplifies retrieving related data in a single query.
+
+ 
+## API Details (UserSide)
+
+### Endpoint:
+- **GET `/user/requests/received`**
+
+### Purpose:
+- Fetch all pending connection requests where the logged-in user is the recipient (`toUserId`) and the request status is `interested`.
+
+---
+
+## Thought Process for API Development
+
+### Steps:
+
+1. **Setting up the User Router**:
+   - Create a dedicated router for user-related operations to improve modularity and organization.
+
+2. **Authenticating the API**:
+   - Apply authentication middleware to ensure the user is logged in before processing the request.
+   - Use tokens (e.g., JWT) to validate and retrieve the logged-in user.
+
+3. **Fetching Connection Requests**:
+   - Query the `ConnectionRequest` collection to retrieve all requests with:
+     - `toUserId` matching the logged-in user's ID.
+     - `status` set to `interested`.
+
+4. **Building Relationships Between Schemas**:
+   - Use `ref` in the `ConnectionRequest` schema to reference the `User` schema for the `fromUserId` field.
+   - Populate the `fromUserId` field to retrieve the related user's data.
+
+5. **Returning Specific Fields**:
+   - Use `populate` to fetch only the `firstName` and `lastName` of the `fromUserId` user.
+   - Exclude unnecessary fields to optimize the response payload.
+
+
+```javascript
+
+    //Setting Reference
+    fromUserId: {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+      required: true,
+    },
+
+    //Popuating Data
+    userRouter.get("/user/requests/recieved", userAuth, async (req, res) => {
+    try {
+        const loggedInUser = req.user;
+        const connectionRequests = await ConnectionRequestModel.find({
+        toUserId: loggedInUser._id,
+        status: "intrested",
+        }).populate("fromUserId", ["firstName", "lastName"]);
+        if (connectionRequests) {
+        return res.status(200).json({
+            connectionRequests,
+        });
+        }
+    } catch (error) {
+        res.status(400).send("ERROR:" + error.message);
+    }
+    });
 
 ---
