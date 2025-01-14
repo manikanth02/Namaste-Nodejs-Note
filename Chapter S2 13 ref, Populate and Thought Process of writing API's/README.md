@@ -159,5 +159,62 @@ Today's focus is on using `ref`, `populate`, and implementing a structured thoug
         res.status(400).send("ERROR:" + error.message);
     }
     });
+  ```
+---
+
+## API Details
+
+### Endpoint:
+- **GET `/user/connections`**
+
+### Purpose:
+- Fetch all accepted connection requests where the logged-in user is either the sender (`fromUserId`) or the receiver (`toUserId`).
 
 ---
+
+## Thought Process for API Development
+
+### Steps:
+
+1. **Fetching Connection Requests**:
+   - Query the `ConnectionRequest` collection to retrieve requests that:
+     - Have `status` set to `"accepted"`.
+     - Include the logged-in user’s ID in either the `toUserId` or `fromUserId` fields.
+
+2. **Data Relationships**:
+   - Use relationships between the `ConnectionRequest` and `User` schemas to retrieve additional user data if necessary.
+   - Leverage Mongoose’s `populate` method to enhance the data with user details.
+
+3. **Returning Results**:
+   - Filter and return all matching connection requests as part of the response.
+   - Optimize the response payload by including only relevant fields (e.g., user names, IDs).
+
+```javascript
+
+userRouter.get("/user/connections", userAuth, async (req, res) => {
+  try {
+    const loggedInUser = req.user;
+
+    const connectionRequests = await ConnectionRequestModel.find({
+      $or: [
+        { toUserId: loggedInUser._id, status: "accepted" },
+        { fromUserId: loggedInUser._id, status: "accepted" },
+      ],
+    }).populate("fromUserId", USER_SAFE_DATA);
+
+    const data = connectionRequests.map((row) => row.fromUserId);
+
+    res.status(200).json({
+      data,
+    });
+  } catch (error) {
+    res.status(400).send("ERROR :" + error.message);
+  }
+});
+
+```
+
+
+---
+
+
