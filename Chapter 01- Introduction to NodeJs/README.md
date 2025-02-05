@@ -45,6 +45,6 @@
 ## Community and Foundations
 - By 2019, two major communities, the **JS Foundation** and **Node.js Foundation**, merged to form the **OpenJS Foundation**.
 
-## Current State (2024)
+## Current State
 - Node.js continues to be widely used, with a rich history and a strong community behind it.
 - please star the Repository if you liked it :)
