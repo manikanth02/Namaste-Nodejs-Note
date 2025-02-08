@@ -132,6 +132,10 @@ View [`commits`](https://github.com/akshadjaiswal/devTinder-backend/commits/main
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2013%20ref%2C%20Populate%20and%20Thought%20Process%20of%20writing%20API's/README.md)
 
+## 📚 [_Chapter 14 - Building Feed API and Pagination_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2014%20Building%20Feed%20API%20and%20Pagination)
+
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%20S2%2014%20Building%20Feed%20API%20and%20Pagination/README.md)
+
 ---
 ## More Learning Resources
 
