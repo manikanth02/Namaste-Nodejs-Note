@@ -77,6 +77,9 @@ DevTinder is a MERN (MongoDB, Express, React, Node.js) application designed to h
 **[Repository - Backend](https://github.com/akshadjaiswal/devTinder-backend)** 
 View [`commits`](https://github.com/akshadjaiswal/devTinder-backend/commits/main/) for every topic update
 
+**[Repository - Frontend](https://github.com/akshadjaiswal/devTinder-frontend)** 
+View [`commits`](https://github.com/akshadjaiswal/devTinder-frontend/commits/main/) for every topic update
+
 1. **Frontend**: Handles the user interface and client-side logic.
 2. **Backend**: Manages server-side logic, APIs, and interactions with the database.
 
@@ -135,6 +138,10 @@ View [`commits`](https://github.com/akshadjaiswal/devTinder-backend/commits/main
 ## 📚 [_Chapter 14 - Building Feed API and Pagination_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2014%20Building%20Feed%20API%20and%20Pagination)
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%20S2%2014%20Building%20Feed%20API%20and%20Pagination/README.md)
+
+## 📚 [_Chapter 15 - DevTinder UI Part-I_]()
+
+- 📖 [_Theory_]()
 
 ---
 ## More Learning Resources
