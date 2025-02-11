@@ -139,9 +139,9 @@ View [`commits`](https://github.com/akshadjaiswal/devTinder-frontend/commits/mai
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/blob/main/Chapter%20S2%2014%20Building%20Feed%20API%20and%20Pagination/README.md)
 
-## 📚 [_Chapter 15 - DevTinder UI Part-I_]()
+## 📚 [_Chapter 15 - DevTinder UI Part-I_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2015%20DevTinder%20UI%20-%20Part%201)
 
-- 📖 [_Theory_]()
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2015%20DevTinder%20UI%20-%20Part%201/README.md)
 
 ---
 ## More Learning Resources
