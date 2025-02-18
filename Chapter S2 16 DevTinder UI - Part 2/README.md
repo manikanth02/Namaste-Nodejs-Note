@@ -1,4 +1,4 @@
-# DevTinder Frontend - UI (part1) Development 🚀
+# DevTinder Frontend - UI (part 2) Development 🚀
 
 ## 📌 Code Demonstration Links  
 🔗 **Backend Repository:** [DevTinder Backend](https://github.com/akshadjaiswal/devTinder-backend)  
