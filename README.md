@@ -151,6 +151,10 @@ View [`commits`](https://github.com/akshadjaiswal/devTinder-frontend/commits/mai
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2017%20DevTinder%20UI%20-%20Part%203/README.md)
 
+## 📚 [_Chapter 18 - DevTinder UI Part-IV_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2018%20DevTinder%20UI%20-%20Part%204)
+
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2018%20DevTinder%20UI%20-%20Part%204/README.md)
+
 ---
 ## More Learning Resources
 
