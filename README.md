@@ -159,6 +159,12 @@ View [`commits`](https://github.com/akshadjaiswal/devTinder-frontend/commits/mai
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S2%2019%20DevTinder%20UI%20-%20Part%205/README.md)
 
+##  **Season 2:**
+
+## 📚 [_Chapter 01 - Launching AWS Instance and deploying frontend_](https://github.com/ashish1500616/Namaste-Nodejs/tree/main/Chapter%20S3%2001%20Lanching%20an%20AWS%20Instance%20and%20Deploying%20frontend)
+
+- 📖 [_Theory_](https://github.com/ashish1500616/Namaste-Nodejs/tree/main/Chapter%20S3%2001%20Lanching%20an%20AWS%20Instance%20and%20Deploying%20frontend/README.md)
+
 ---
 ## More Learning Resources
 
