@@ -165,6 +165,10 @@ View [`commits`](https://github.com/akshadjaiswal/devTinder-frontend/commits/mai
 
 - 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S3%2001%20Lanching%20an%20AWS%20Instance%20and%20Deploying%20frontend/README.md)
 
+## 📚 [_Chapter 02 - Nginx and backend Node App Development_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S3%2002%20Nginx%20and%20Backend%20Node%20App%20Development)
+
+- 📖 [_Theory_](https://github.com/akshadjaiswal/Namaste-Nodejs/tree/main/Chapter%20S3%2002%20Nginx%20and%20Backend%20Node%20App%20Development/README.md)
+
 ---
 ## More Learning Resources
 
