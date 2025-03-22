@@ -1,10 +1,19 @@
 # **Namaste Node.js - Episode 1 Summary**  
 
+Any Application that can be written in javascript will be eventuall written in javascript -> Stack overflow Founder
+
 ## **Chapter 01: Introduction to Node.js**  
 
 ### **1. What is Node.js?**  
 - **Node.js** is a JavaScript runtime environment built on Chrome's **V8 engine**.  
 - It allows JavaScript to run outside the browser, making it a powerful tool for various applications beyond web development.  
+- Node.js is cross-platform and open-source Javascript runtime environment.
+- cross-platform -> It can run on any operating system like mac,windows,linux so it run on any operating system.
+- open-source.It means it is open source projects
+- Node.js is even-driven architecture and asynchronus I/O(Non Blocking I/O)
+- Where is there javscript there is javascript engine. 
+
+All the dynamic features that we see on the website is due to javascript but problem is that we can run javascript only on browser becaues it have javascript engine but Node.js come with solution.It buils a runtime environment for javascritp so that we can run at any place like mobile,laptop,watch server
 
 ### **2. Key Features of Node.js**  
 
