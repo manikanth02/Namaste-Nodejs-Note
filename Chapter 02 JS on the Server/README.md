@@ -35,6 +35,9 @@
 
 - This conversion process enables **Node.js applications** to run at high speed while maintaining flexibility and scalability.  
 
+## **4. Why directly we can not insert v8 engine in our server?What is use of Node.js**
+- Work of v8 engine is to run javascript code.
+- but the superpower like connceting with database,handling file,reponsing to server is done by Node.js API.Just like Borwser give many web API,Similarly Node.js give many powerful API.
 ---  
 
 ### **If you found this helpful, please star the repository!**
